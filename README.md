@@ -4,7 +4,12 @@ python, numpy, matplotlib, opencv, machine learning
 This code imports the necessary libraries (numpy, matplotlib, and cv2) to perform image processing tasks. It then reads an image file named 'image.jpeg' using the cv2.imread() function, and converts it to grayscale using cv2.cvtColor(). Next, the code applies a threshold to the grayscale image using the cv2.threshold() function, which converts all pixels below a certain threshold (in this case, 127) to black, and all pixels above it to white. The code then applies a Canny edge detection algorithm to the thresholded image using cv2.Canny() to detect edges in the image. The code then applies dilation to the edge image using a kernel of size (5,5) and 1 iteration, which thickens the edges. Next, the code finds contours in the dilated image using cv2.findContours() and draws them on a copy of the original image. The code then loops through the contours and extracts a sub-image for each contour that has a height greater than 100 pixels. The sub-image is then displayed using matplotlib and saved to a file named 'R0.jpg', 'R1.jpg', etc.
 
 ![Original Image](https://github.com/karaozkan/001_Segment_Objects_From_Background/blob/main/image.jpeg)
-
+https://github.com/karaozkan/001_Segment_Objects_From_Background/blob/main/R0.jpg
+https://github.com/karaozkan/001_Segment_Objects_From_Background/blob/main/R1.jpg
+https://github.com/karaozkan/001_Segment_Objects_From_Background/blob/main/R2.jpg
+https://github.com/karaozkan/001_Segment_Objects_From_Background/blob/main/R3.jpg
+https://github.com/karaozkan/001_Segment_Objects_From_Background/blob/main/R4.jpg
+https://github.com/karaozkan/001_Segment_Objects_From_Background/blob/main/R5.jpg
 
 Steps
 1. Import necessary libraries (numpy, matplotlib, cv2)
