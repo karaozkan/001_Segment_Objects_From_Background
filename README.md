@@ -15,6 +15,3 @@ Steps
 10. Display the sub-image using matplotlib and plt.imshow(cv2.cvtColor(im, cv2.COLOR_BGR2RGB))
 11. Save the sub-image to a file named 'R0.jpg', 'R1.jpg', etc using cv2.imwrite('R' + str(image_no) + '.jpg',im)
 12. Increment the image number by 1 using image_no += 1
-
-
-karaozkan_python_005_Segment_Objects_From_Background
